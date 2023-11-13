@@ -1,4 +1,4 @@
-# SMARCUnityHDRP
+# SMARC Unity HDRP
 
 Welcome to the HDRP (High Definition Render Pipeline) version of SMARC Unity.
 This project has all of the dependencies configured and installed in order to showcase the [SMARC Unity Assets package](https://github.com/martkartasev/SMARCUnityAssets) with minimal effort.
