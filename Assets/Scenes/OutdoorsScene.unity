@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2157.6995, g: 2259.8752, b: 3277.4849, a: 1}
+  m_IndirectSpecularColor: {r: 2157.762, g: 2259.8596, b: 3277.4263, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -764,6 +764,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1044545453250593933, guid: 8a1bd0924a787cef58c4711050fe0788,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093649603979486930, guid: 8a1bd0924a787cef58c4711050fe0788,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1655004450714825591, guid: 8a1bd0924a787cef58c4711050fe0788,
         type: 3}
       propertyPath: displacementAmount
@@ -839,6 +849,11 @@ PrefabInstance:
       propertyPath: displacementAmount
       value: 1.005
       objectReference: {fileID: 0}
+    - target: {fileID: 4050577146848748639, guid: 8a1bd0924a787cef58c4711050fe0788,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4692590650841286446, guid: 8a1bd0924a787cef58c4711050fe0788,
         type: 3}
       propertyPath: terrain
@@ -854,6 +869,11 @@ PrefabInstance:
       propertyPath: displacementAmount
       value: 1.005
       objectReference: {fileID: 0}
+    - target: {fileID: 5537357250328288402, guid: 8a1bd0924a787cef58c4711050fe0788,
+        type: 3}
+      propertyPath: angles
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5904761928292822877, guid: 8a1bd0924a787cef58c4711050fe0788,
         type: 3}
       propertyPath: displacementAmount
@@ -863,6 +883,11 @@ PrefabInstance:
         type: 3}
       propertyPath: displacementAmount
       value: 1.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233709735855152073, guid: 8a1bd0924a787cef58c4711050fe0788,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8630281145081955220, guid: 8a1bd0924a787cef58c4711050fe0788,
         type: 3}
