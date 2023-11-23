@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2159.881, g: 2263.389, b: 3285.3638, a: 1}
+  m_IndirectSpecularColor: {r: 2159.881, g: 2263.389, b: 3285.3677, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -337,6 +337,12 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
+--- !u!33 &193348417 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 2819512067933935288, guid: a080b5d4c02898d1cbd62321745b646d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1647380186}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &347934424 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2486751600669263706, guid: 8a1bd0924a787cef58c4711050fe0788,
@@ -588,9 +594,9 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  repetitionSize: 406
+  repetitionSize: 250
   largeOrientationValue: 0
-  largeWindSpeed: 12
+  largeWindSpeed: 0
   largeChaos: 0.088
   largeBand0Multiplier: 1
   largeBand0FadeMode: 1
@@ -603,7 +609,7 @@ MonoBehaviour:
   ripples: 1
   ripplesMotionMode: 0
   ripplesOrientationValue: 0
-  ripplesWindSpeed: 8.32
+  ripplesWindSpeed: 2.17
   ripplesChaos: 0.8
   ripplesFadeMode: 1
   ripplesFadeStart: 50
@@ -5469,7 +5475,7 @@ PrefabInstance:
     - target: {fileID: 1806914932985786378, guid: 8a1bd0924a787cef58c4711050fe0788,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.66
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1806914932985786378, guid: 8a1bd0924a787cef58c4711050fe0788,
         type: 3}
@@ -5752,6 +5758,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: hugin
       objectReference: {fileID: 0}
+    - target: {fileID: 8142571850463178658, guid: a080b5d4c02898d1cbd62321745b646d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8210391806480090828, guid: a080b5d4c02898d1cbd62321745b646d,
         type: 3}
       propertyPath: displacementAmount
@@ -5765,8 +5776,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2395612677569204790, guid: a080b5d4c02898d1cbd62321745b646d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1692042875}
+    - targetCorrespondingSourceObject: {fileID: 2395612677569204790, guid: a080b5d4c02898d1cbd62321745b646d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1692042874}
   m_SourcePrefab: {fileID: 100100000, guid: a080b5d4c02898d1cbd62321745b646d, type: 3}
+--- !u!1 &1692042868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2395612677569204790, guid: a080b5d4c02898d1cbd62321745b646d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1647380186}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &1692042874
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692042868}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1692042875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692042868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07460c91338499a888f2f9485054356, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  underWaterObj: {fileID: 1692042868}
+  meshFilter: {fileID: 193348417}
 --- !u!1001 &1714470869
 PrefabInstance:
   m_ObjectHideFlags: 0
