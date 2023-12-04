@@ -26,14 +26,6 @@ namespace DefaultNamespace.Water
             water.ProjectPointOnWaterSurface(parameters, out result);
             return result.projectedPositionWS.y;
         }
-
-        public override float GetDistanceToWaterLevelAt(Vector3 position)
-        {
-            float waterHeight = GetWaterLevelAt(position);
-
-            float distanceToWater = position.y - waterHeight;
-
-            return distanceToWater;
-        }
+        
     }
 }
