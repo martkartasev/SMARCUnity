@@ -16,15 +16,15 @@ This is due to the packages being private! Unity can only resolve private packag
 2. Open SMARCUnityHDRP/Packages/manifest.json
 3. Under manifest.json, edit the following reference
 
-´´
+```
     "com.smarc.assets": "git@github.com:martkartasev/SMARCUnityAssets.git",
-´´
+```
 
 To your respective local directory, for example
 
-´´
+```
     "com.smarc.assets": "file:C:/Users/Mart9/Workspace/SMARCUnityAssets",
-´´
+```
 For more info see https://docs.unity3d.com/Manual/upm-localpath.html
 
 This will be fixed in the future.
