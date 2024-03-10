@@ -8,6 +8,28 @@ The project contains a simple demo scene as well as some assets not found in the
 * Replica of SMaRC testing locations
 * ???
 
+## Temporary Installation Instructions
+
+This is due to the packages being private! Unity can only resolve private packages with SSH resolution. If Unity cannot fetch the package, you have to do this.
+
+1. Clone this repo and https://github.com/martkartasev/SMARCUnityAssets
+2. Open SMARCUnityHDRP/Packages/manifest.json
+3. Under manifest.json, edit the following reference
+
+```
+    "com.smarc.assets": "git@github.com:martkartasev/SMARCUnityAssets.git",
+```
+
+To your respective local directory, for example
+
+```
+    "com.smarc.assets": "file:C:/Users/Mart9/Workspace/SMARCUnityAssets",
+```
+For more info see https://docs.unity3d.com/Manual/upm-localpath.html
+
+This will be fixed in the future.
+
+
 ## New to Unity?
 
 ------
