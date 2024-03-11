@@ -8,11 +8,10 @@
       "hash": "c8205ffcd945cd176f4493a8ab25db093efef779"
     },
     "com.smarc.assets": {
-      "version": "git@github.com:martkartasev/SMARCUnityAssets.git",
+      "version": "file:../../SMARCUnityAssets",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "ffdae9057d62ba3e45b438245f79ce61466909f6"
+      "source": "local",
+      "dependencies": {}
     },
     "com.unity.burst": {
       "version": "1.8.8",
