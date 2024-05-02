@@ -1,7 +1,7 @@
 # SMARC Unity HDRP
 
 Welcome to the HDRP (High Definition Render Pipeline) version of SMARC Unity.
-This project has all of the dependencies configured and installed in order to showcase the [SMARC Unity Assets package](https://github.com/martkartasev/SMARCUnityAssets) with minimal effort.
+This project has all of the dependencies configured and installed in order to showcase the [SMARC Unity Assets package](https://github.com/smarc-project/SMARCUnityAssets) with minimal effort.
 
 The project contains a simple demo scene as well as some assets not found in the Assets package, such as:
 * Imported bathymetry
@@ -12,7 +12,7 @@ The project contains a simple demo scene as well as some assets not found in the
 
 This is due to the packages being private! Unity can only resolve private packages with SSH resolution. If Unity cannot fetch the package, you have to do this.
 
-1. Clone this repo and https://github.com/martkartasev/SMARCUnityAssets
+1. Clone this repo and https://github.com/smarc-project/SMARCUnityAssets
 2. Open SMARCUnityHDRP/Packages/manifest.json
 3. Under manifest.json, edit the following reference
 
