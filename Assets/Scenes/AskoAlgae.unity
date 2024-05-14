@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2158.5608, g: 2263.889, b: 3290.1763, a: 1}
+  m_IndirectSpecularColor: {r: 2158.305, g: 2260.5706, b: 3278.3716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -786,6 +786,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 789085020915520853, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
         type: 3}
+      propertyPath: m_ParentAnchorPosition.y
+      value: 0.07800001
+      objectReference: {fileID: 0}
+    - target: {fileID: 789085020915520853, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
+        type: 3}
       propertyPath: m_ParentAnchorPosition.z
       value: -0.4020001
       objectReference: {fileID: 0}
@@ -806,6 +811,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 796163644687781608, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
         type: 3}
+      propertyPath: m_ParentAnchorPosition.y
+      value: 0.056999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 796163644687781608, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
+        type: 3}
       propertyPath: m_ParentAnchorPosition.z
       value: -0.5030002
       objectReference: {fileID: 0}
@@ -823,6 +833,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ParentAnchorPosition.x
       value: 0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190772223950470501, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
+        type: 3}
+      propertyPath: m_ParentAnchorPosition.y
+      value: -0.052000016
       objectReference: {fileID: 0}
     - target: {fileID: 1190772223950470501, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
         type: 3}
@@ -891,6 +906,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5671341474410342197, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
         type: 3}
+      propertyPath: m_ParentAnchorPosition.y
+      value: 0.002000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671341474410342197, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
+        type: 3}
       propertyPath: m_ParentAnchorPosition.z
       value: 0.45999995
       objectReference: {fileID: 0}
@@ -908,6 +928,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ParentAnchorPosition.x
       value: 0.048000053
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754780887116095433, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
+        type: 3}
+      propertyPath: m_ParentAnchorPosition.y
+      value: -0.0069999993
       objectReference: {fileID: 0}
     - target: {fileID: 5754780887116095433, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
         type: 3}
@@ -1006,6 +1031,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6158461340490352795, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
         type: 3}
+      propertyPath: m_ParentAnchorPosition.y
+      value: -0.035999984
+      objectReference: {fileID: 0}
+    - target: {fileID: 6158461340490352795, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
+        type: 3}
       propertyPath: m_ParentAnchorPosition.z
       value: 0.23999995
       objectReference: {fileID: 0}
@@ -1023,6 +1053,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ParentAnchorPosition.x
       value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676115163371445929, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
+        type: 3}
+      propertyPath: m_ParentAnchorPosition.y
+      value: -0.06299999
       objectReference: {fileID: 0}
     - target: {fileID: 6676115163371445929, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
         type: 3}
@@ -1051,6 +1086,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7182827648421555165, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
         type: 3}
+      propertyPath: m_ParentAnchorPosition.y
+      value: -0.0069999993
+      objectReference: {fileID: 0}
+    - target: {fileID: 7182827648421555165, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
+        type: 3}
       propertyPath: m_ParentAnchorRotation.y
       value: -0.052561805
       objectReference: {fileID: 0}
@@ -1058,6 +1098,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ParentAnchorPosition.x
       value: 0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 7306452224989378977, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
+        type: 3}
+      propertyPath: m_ParentAnchorPosition.y
+      value: 0.07100001
       objectReference: {fileID: 0}
     - target: {fileID: 7306452224989378977, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
         type: 3}
