@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<robot name="sam_auv">
+  <material name="Material-Plastic">
+    <color rgba="0 0 0 1" />
+  </material>
+  <link name="base_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.005 0 -0.03" />
+      <mass value="15.0500001907" />
+      <inertia ixx="0.0293000005185604" ixy="0" ixz="0" iyy="1.62019991874695" iyz="0" izz="1.62019991874695" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.677 0 0" />
+      <geometry>
+        <mesh filename="package://meshes/SAM_HULL.dae" scale="1 1 1" />
+      </geometry>
+      <material name="Material-Plastic">
+        <color rgba="0 0 0 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="tcg2_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+  </link>
+  <link name="tcg1_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+  </link>
+  <link name="battery_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+  </link>
+  <link name="camera_front_right_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+  </link>
+  <link name="camera_front_left_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+  </link>
+  <link name="camera_down_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+  </link>
+  <link name="camera_front_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+  </link>
+  <link name="uw_gps_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+  </link>
+  <link name="gps_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+  </link>
+  <link name="sbg_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+  </link>
+  <link name="imu_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+  </link>
+  <link name="sidescan_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+  </link>
+  <link name="dvl_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+  </link>
+  <link name="pressure_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+  </link>
+  <link name="thruster_yaw_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+  </link>
+  <link name="thruster_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://meshes/SAM_NOZZLE.dae" scale="1 1 1" />
+      </geometry>
+      <material name="Material-Plastic">
+        <color rgba="0 0 0 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="back_prop_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://meshes/SAM_BACKPROP.dae" scale="1 1 1" />
+      </geometry>
+      <material name="Material-Plastic">
+        <color rgba="0 0 0 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="front_prop_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1E-07" />
+      <inertia ixx="9.99999997475243E-07" ixy="0" ixz="0" iyy="9.99999997475243E-07" iyz="0" izz="9.99999997475243E-07" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://meshes/SAM_FRONTPROP.dae" scale="1 1 1" />
+      </geometry>
+      <material name="Material-Plastic">
+        <color rgba="0 0 0 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="sam_auv_base_link_joint" type="fixed">
+    <parent link="sam_auv" />
+    <child link="base_link" />
+  </joint>
+  <joint name="tcg_joint2" type="revolute">
+    <origin xyz="-0.125 0 0" />
+    <parent link="base_link" />
+    <child link="tcg2_link" />
+    <axis xyz="1 0 0" />
+    <limit lower="-1.6000000062823" upper="1.6000000062823" effort="1" velocity="0.200000002980232" />
+  </joint>
+  <joint name="tcg_joint1" type="revolute">
+    <origin xyz="-0.095 0 0" />
+    <parent link="base_link" />
+    <child link="tcg1_link" />
+    <axis xyz="1 0 0" />
+    <limit lower="-1.6000000062823" upper="1.6000000062823" effort="1" velocity="0.200000002980232" />
+  </joint>
+  <joint name="lcg_joint" type="prismatic">
+    <origin xyz="0.083 0 0" />
+    <parent link="base_link" />
+    <child link="battery_link" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.00999999977648258" upper="0.00999999977648258" effort="1" velocity="0.200000002980232" />
+  </joint>
+  <joint name="camera_front_right_joint" type="fixed">
+    <origin rpy="-1.841593 -7E-06 -2.341593" xyz="0.636 -0.05 -0.007" />
+    <parent link="base_link" />
+    <child link="camera_front_right_link" />
+  </joint>
+  <joint name="camera_front_left_joint" type="fixed">
+    <origin rpy="-1.841593 -7E-06 -0.799993" xyz="0.636 0.05 -0.007" />
+    <parent link="base_link" />
+    <child link="camera_front_left_link" />
+  </joint>
+  <joint name="camera_down_joint" type="fixed">
+    <origin rpy="-3.141585 0 -1.5707" xyz="0.5905 0 -0.058" />
+    <parent link="base_link" />
+    <child link="camera_down_link" />
+  </joint>
+  <joint name="camera_front_joint" type="fixed">
+    <origin rpy="-1.5707 0 -1.5707" xyz="0.647 0 0" />
+    <parent link="base_link" />
+    <child link="camera_front_link" />
+  </joint>
+  <joint name="uw_gps_joint" type="fixed">
+    <origin xyz="-0.402 0 0.078" />
+    <parent link="base_link" />
+    <child link="uw_gps_link" />
+  </joint>
+  <joint name="gps_joint" type="fixed">
+    <origin xyz="0.528 0 0.071" />
+    <parent link="base_link" />
+    <child link="gps_link" />
+  </joint>
+  <joint name="sbg_joint" type="fixed">
+    <origin xyz="0.46 0 0.002" />
+    <parent link="base_link" />
+    <child link="sbg_link" />
+  </joint>
+  <joint name="imu_joint" type="fixed">
+    <origin xyz="0.24 0 -0.036" />
+    <parent link="base_link" />
+    <child link="imu_link" />
+  </joint>
+  <joint name="sidescan_joint" type="fixed">
+    <origin xyz="-0.043 0 0" />
+    <parent link="base_link" />
+    <child link="sidescan_link" />
+  </joint>
+  <joint name="dvl_joint" type="fixed">
+    <origin xyz="0.573 0 -0.063" />
+    <parent link="base_link" />
+    <child link="dvl_link" />
+  </joint>
+  <joint name="pressure_joint" type="fixed">
+    <origin xyz="-0.503 0.025 0.057" />
+    <parent link="base_link" />
+    <child link="pressure_link" />
+  </joint>
+  <joint name="thruster_yaw_joint" type="revolute">
+    <origin xyz="-0.677 0 0" />
+    <parent link="base_link" />
+    <child link="thruster_yaw_link" />
+    <axis xyz="0 0 1" />
+    <limit lower="-0.200000000785288" upper="0.200000000785288" effort="100" velocity="0.200000002980232" />
+  </joint>
+  <joint name="thruster_pitch_joint" type="revolute">
+    <parent link="thruster_yaw_link" />
+    <child link="thruster_link" />
+    <axis xyz="0 1 0" />
+    <limit lower="-0.200000000785288" upper="0.200000000785288" effort="100" velocity="0.200000002980232" />
+  </joint>
+  <joint name="back_prop_joint" type="continuous">
+    <origin xyz="-0.077 0 0" />
+    <parent link="thruster_link" />
+    <child link="back_prop_link" />
+    <axis xyz="1 0 0" />
+  </joint>
+  <joint name="front_prop_joint" type="continuous">
+    <origin xyz="-0.0543 0 0" />
+    <parent link="thruster_link" />
+    <child link="front_prop_link" />
+    <axis xyz="1 0 0" />
+  </joint>
+</robot>
