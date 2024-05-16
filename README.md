@@ -6,7 +6,7 @@ This project has all of the dependencies configured and installed in order to sh
 The project contains a simple demo scene as well as some assets not found in the Assets package, such as:
 * Imported bathymetry
 * Replica of SMaRC testing locations
-* ????!
+* ????! question mark
 
 ## Temporary Installation Instructions
 
