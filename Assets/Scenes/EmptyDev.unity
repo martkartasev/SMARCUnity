@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2160.0354, g: 2263.8167, b: 3286.5435, a: 1}
+  m_IndirectSpecularColor: {r: 2159.554, g: 2263.3518, b: 3286.399, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -337,12 +337,6 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
---- !u!4 &197247680 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8984750673571870221, guid: d61a14fb14b3d2e7fa7a6c0ec08593fc,
-    type: 3}
-  m_PrefabInstance: {fileID: 494106991}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &232348320
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,7 +805,7 @@ Transform:
   m_GameObject: {fileID: 232348320}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6931441, y: 1.6834054, z: 2.7488294}
+  m_LocalPosition: {x: 0.6931441, y: 1.6834054, z: -0.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -924,6 +918,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3304787981702433162, guid: d61a14fb14b3d2e7fa7a6c0ec08593fc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4017112849382200975, guid: d61a14fb14b3d2e7fa7a6c0ec08593fc,
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -952,14 +951,14 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1015264551836550920, guid: d61a14fb14b3d2e7fa7a6c0ec08593fc,
+        type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 608154547}
     - targetCorrespondingSourceObject: {fileID: 2755366886254934537, guid: d61a14fb14b3d2e7fa7a6c0ec08593fc,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 577417737}
-    - targetCorrespondingSourceObject: {fileID: 8984750673571870221, guid: d61a14fb14b3d2e7fa7a6c0ec08593fc,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 608154547}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d61a14fb14b3d2e7fa7a6c0ec08593fc, type: 3}
 --- !u!1 &577417736
@@ -1095,12 +1094,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608154546}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.21, y: 2.47, z: 1.184}
-  m_LocalScale: {x: 7.6, y: 1, z: 4.644515}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.2099998, y: 2.47, z: 1.1839999}
+  m_LocalScale: {x: 7.6000004, y: 1, z: 4.644515}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 197247680}
+  m_Father: {fileID: 1007773125}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &608154548
 BoxCollider:
@@ -1149,8 +1148,8 @@ MonoBehaviour:
   cpuFullResolution: 1
   cpuEvaluateRipples: 0
   customMaterial: {fileID: 0}
-  startSmoothness: 0.95
-  endSmoothness: 0.85
+  startSmoothness: 1
+  endSmoothness: 0.9
   smoothnessFadeStart: 100
   smoothnessFadeDistance: 500
   refractionColor: {r: 0.033104762, g: 0.26327342, b: 0.26327342, a: 1}
@@ -1166,10 +1165,10 @@ MonoBehaviour:
   caustics: 1
   causticsIntensity: 0.5
   causticsPlaneBlendDistance: 2
-  causticsResolution: 256
+  causticsResolution: 1024
   causticsBand: 2
-  virtualPlaneDistance: 4
-  causticsTilingFactor: 1
+  virtualPlaneDistance: 3
+  causticsTilingFactor: 0.5
   causticsDirectionalShadow: 0
   causticsDirectionalShadowDimmer: 0.25
   renderingLayerMask: 257
@@ -1194,7 +1193,7 @@ MonoBehaviour:
   largeCurrentRegionExtent: {x: 100, y: 100}
   largeCurrentRegionOffset: {x: 0, y: 0}
   largeCurrentMapInfluence: 1
-  ripplesCurrentSpeedValue: 0
+  ripplesCurrentSpeedValue: 0.48
   ripplesCurrentMap: {fileID: 0}
   ripplesCurrentRegionExtent: {x: 100, y: 100}
   ripplesCurrentRegionOffset: {x: 0, y: 0}
@@ -1272,8 +1271,8 @@ MonoBehaviour:
   ripples: 1
   ripplesMotionMode: 0
   ripplesOrientationValue: 0
-  ripplesWindSpeed: 5
-  ripplesChaos: 1
+  ripplesWindSpeed: 5.46
+  ripplesChaos: 0.851
   ripplesFadeMode: 1
   ripplesFadeStart: 50
   ripplesFadeDistance: 200
@@ -1498,6 +1497,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   water: {fileID: 0}
+--- !u!4 &1007773125 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1015264551836550920, guid: d61a14fb14b3d2e7fa7a6c0ec08593fc,
+    type: 3}
+  m_PrefabInstance: {fileID: 494106991}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1369196391 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2755366886254934537, guid: d61a14fb14b3d2e7fa7a6c0ec08593fc,
@@ -1533,6 +1538,7 @@ MonoBehaviour:
   m_Script: {fileID: 1941155307}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Entries: []
 --- !u!4 &1707339311
 Transform:
   m_ObjectHideFlags: 19
@@ -1862,7 +1868,7 @@ PrefabInstance:
     - target: {fileID: 5884092907814737200, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.9999359
+      value: 0.9975177
       objectReference: {fileID: 0}
     - target: {fileID: 5884092907814737200, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
         type: 3}
@@ -1872,7 +1878,7 @@ PrefabInstance:
     - target: {fileID: 5884092907814737200, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.011319247
+      value: -0.07041671
       objectReference: {fileID: 0}
     - target: {fileID: 5884092907814737200, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
         type: 3}
@@ -1887,7 +1893,7 @@ PrefabInstance:
     - target: {fileID: 5884092907814737200, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 361.297
+      value: -8.076
       objectReference: {fileID: 0}
     - target: {fileID: 5884092907814737200, guid: 5f27a8e7ba8bef94f9ded7b3dd8f09e7,
         type: 3}
