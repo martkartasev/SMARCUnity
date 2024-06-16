@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2158.2795, g: 2260.4143, b: 3278.2659, a: 1}
+  m_IndirectSpecularColor: {r: 2168.7346, g: 2280.8384, b: 3333.1958, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -348,17 +348,17 @@ PrefabInstance:
     - target: {fileID: 2970021653359921310, guid: fbbc659f90af0a84692269abffdf9f53,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.2266054
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2970021653359921310, guid: fbbc659f90af0a84692269abffdf9f53,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.1122084
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2970021653359921310, guid: fbbc659f90af0a84692269abffdf9f53,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.2361331
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2970021653359921310, guid: fbbc659f90af0a84692269abffdf9f53,
         type: 3}
@@ -398,7 +398,7 @@ PrefabInstance:
     - target: {fileID: 6357952754565123669, guid: fbbc659f90af0a84692269abffdf9f53,
         type: 3}
       propertyPath: m_Name
-      value: ROSClock
+      value: ROSSingletons
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
