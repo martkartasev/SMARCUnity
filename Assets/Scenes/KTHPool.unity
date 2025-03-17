@@ -844,6 +844,7 @@ GameObject:
   m_Component:
   - component: {fileID: 432432461}
   - component: {fileID: 432432460}
+  - component: {fileID: 432432462}
   m_Layer: 0
   m_Name: Sky and Fog Volume
   m_TagString: Untagged
@@ -883,6 +884,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &432432462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432432459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 849219c700ef443281978d8398f9f60d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &494106991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1512,6 +1525,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1245318578993360012, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408077135471737061, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408077135471737061, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408077135471737061, guid: 28d89498426c2a64ca6aa9730b91a682,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
@@ -2417,6 +2445,26 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7158030978924508843, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215776647456745819, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215776647456745819, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215776647456745819, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215776647456745819, guid: 28d89498426c2a64ca6aa9730b91a682,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
