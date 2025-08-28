@@ -826,7 +826,7 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   scriptingDefineSymbols:
-    Standalone: ROS2
+    Standalone: ROS2;HDRP_ENABLED
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
