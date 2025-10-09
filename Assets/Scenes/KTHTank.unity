@@ -1824,7 +1824,7 @@ PrefabInstance:
     - target: {fileID: 920024747048373790, guid: 27e256403f48e4a4ab5838b7638bbc10,
         type: 3}
       propertyPath: m_Name
-      value: KTHTank World
+      value: KTHTank
       objectReference: {fileID: 0}
     - target: {fileID: 1101948116815116915, guid: 27e256403f48e4a4ab5838b7638bbc10,
         type: 3}
