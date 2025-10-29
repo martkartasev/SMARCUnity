@@ -4,7 +4,7 @@
     "com.frj.unity-sensors-ros": "https://github.com/martkartasev/UnitySensors.git?path=/Assets/UnitySensorsROS#v2.0.5",
     "com.github-glitchenzo.nugetforunity": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity",
     "com.smarc.assets": "file:../../SMARCAssets",
-    "com.unity.collab-proxy": "2.8.2",
+    "com.unity.collab-proxy": "2.9.3",
     "com.unity.feature.development": "1.0.2",
     "com.unity.inputsystem": "1.14.2",
     "com.unity.multiplayer.center": "1.0.0",
