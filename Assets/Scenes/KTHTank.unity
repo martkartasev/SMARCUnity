@@ -464,13 +464,13 @@ PrefabInstance:
     - target: {fileID: 6420392544461851451, guid: 78d04dcbae40bc646a35e455b2c6fc2b,
         type: 3}
       propertyPath: referenceFrame
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6420392544461851451, guid: 78d04dcbae40bc646a35e455b2c6fc2b,
         type: 3}
       propertyPath: MapFrameTransform
       value: 
-      objectReference: {fileID: 1470539593}
+      objectReference: {fileID: 0}
     - target: {fileID: 6420392544461851451, guid: 78d04dcbae40bc646a35e455b2c6fc2b,
         type: 3}
       propertyPath: resetOrientationToIdentity
@@ -2243,6 +2243,31 @@ PrefabInstance:
       propertyPath: targetSpace
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5015413490385728692, guid: 27e256403f48e4a4ab5838b7638bbc10,
+        type: 3}
+      propertyPath: heightScattering
+      value: 0.543
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971464303570322410, guid: 27e256403f48e4a4ab5838b7638bbc10,
+        type: 3}
+      propertyPath: m_Version
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971464303570322410, guid: 27e256403f48e4a4ab5838b7638bbc10,
+        type: 3}
+      propertyPath: m_ShapeWidth
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971464303570322410, guid: 27e256403f48e4a4ab5838b7638bbc10,
+        type: 3}
+      propertyPath: m_ShapeHeight
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971464303570322410, guid: 27e256403f48e4a4ab5838b7638bbc10,
+        type: 3}
+      propertyPath: m_InnerSpotPercent
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 8280023940269143920, guid: 27e256403f48e4a4ab5838b7638bbc10,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2261,7 +2286,7 @@ PrefabInstance:
     - target: {fileID: 8472552499065682470, guid: 27e256403f48e4a4ab5838b7638bbc10,
         type: 3}
       propertyPath: referenceFrame
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8472552499065682470, guid: 27e256403f48e4a4ab5838b7638bbc10,
         type: 3}
