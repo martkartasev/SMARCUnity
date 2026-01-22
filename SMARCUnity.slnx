@@ -1,0 +1,5 @@
+﻿<Solution>
+  <Project Path="SMARC.SMARCAssets.csproj" />
+  <Project Path="SMARC.SMARCAssets.Editor.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+</Solution>
