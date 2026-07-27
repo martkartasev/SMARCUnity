@@ -1,0 +1,68 @@
+# SAM waypoint arrow
+# Units: metres
+# Origin: geometric centre; forward direction: +X; up direction: +Z
+mtllib SAMWaypointArrow.mtl
+
+o SAMWaypointArrow
+s off
+
+# Lower outer profile (z = 0.00)
+v -1.400 -0.320 0.000
+v  0.450 -0.320 0.000
+v  0.450 -0.720 0.000
+v  1.400  0.000 0.000
+v  0.450  0.720 0.000
+v  0.450  0.320 0.000
+v -1.400  0.320 0.000
+
+# Upper outer profile (z = 0.20)
+v -1.400 -0.320 0.200
+v  0.450 -0.320 0.200
+v  0.450 -0.720 0.200
+v  1.400  0.000 0.200
+v  0.450  0.720 0.200
+v  0.450  0.320 0.200
+v -1.400  0.320 0.200
+
+# Inset top profile (z = 0.24)
+v -1.300 -0.240 0.240
+v  0.530 -0.240 0.240
+v  0.530 -0.550 0.240
+v  1.220  0.000 0.240
+v  0.530  0.550 0.240
+v  0.530  0.240 0.240
+v -1.300  0.240 0.240
+
+# Dark extruded body
+g ArrowBody
+usemtl ArrowSide
+f 1 7 6 2
+f 2 4 3
+f 2 6 4
+f 6 5 4
+f 1 2 9 8
+f 2 3 10 9
+f 3 4 11 10
+f 4 5 12 11
+f 5 6 13 12
+f 6 7 14 13
+f 7 1 8 14
+
+# Raised white rim
+g ArrowRim
+usemtl ArrowRim
+f 8 9 16 15
+f 9 10 17 16
+f 10 11 18 17
+f 11 12 19 18
+f 12 13 20 19
+f 13 14 21 20
+f 14 8 15 21
+
+# Cyan top surface
+g ArrowTop
+usemtl ArrowTop
+f 15 16 20 21
+f 16 17 18
+f 16 18 20
+f 20 18 19
